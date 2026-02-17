@@ -8,18 +8,25 @@ Required_Age=18
 ## inside the script:
 [
 echo "Enter your username:"
+
 read NAME
 ]
 ## 3. Prompt the user to enter the age, store the input in the AGE variable.
 ## inside the script:
 [
 echo "Enter your age:"
+
 read AGE
+
 echo "Username: $NAME"
+
 echo "Age: $AGE"
+
 echo "Required Age: $Required_Age"
 ]
 
 ## outside the script: 
 chmod +x script.sh
+
 ./script.sh
+
